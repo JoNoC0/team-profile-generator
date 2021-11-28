@@ -154,15 +154,13 @@ function createIntern() {
 // make questions for intern, and manager
 
 function writeHtml() {
-console.log(generateHtml);
+// convert employee array to html string
      const htmlString = generateHtml(employeeArr)
+     // html string to write file
      fs.writeFile('./dist/employee.html', htmlString, function(err) {
         if(err) throw err
         console.log('File Written');
      })
-    // convert employee array to html string
-    // html string to write file
-    console.log(employeeArr);
 }
 
 createEmployee();
