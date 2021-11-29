@@ -11,28 +11,28 @@ const employeeArr = []
 const userQuestions = [{
     name: 'username',
     type: 'input',
-    message: "Enter team manager's name"
+    message: "Enter team member's name"
 },
 {
     name: 'employeeId',
     type: 'input',
-    message: "Enter team manager's name"
+    message: "Enter team member's id"
 },
 {
     name: 'email',
     type: 'input',
-    message: "Enter team manager's name"
+    message: "Enter team member's email"
 },
 {
     name: 'officeNumber',
     type: 'input',
-    message: "Enter team manager's name"
+    message: "Enter team member's office number"
 },
 {
     name: 'position',
     type: 'list',
-    message: "Enter team manager's name",
-    choices: ['Engineer', 'Intern', 'Done']
+    message: "Select team member's role",
+    choices: ['Manager', 'Engineer', 'Intern', 'Done']
 }
 ]
 function createEmployee() {
@@ -57,27 +57,27 @@ function createEmployee() {
 const engineerQuestions = [{
     name: 'username',
     type: 'input',
-    message: "Enter team manager's name"
+    message: "Enter team member's name"
 },
 {
     name: 'employeeId',
     type: 'input',
-    message: "Enter team manager's name"
+    message: "Enter team member's employee id"
 },
 {
     name: 'email',
     type: 'input',
-    message: "Enter team manager's name"
+    message: "Enter team member's email"
 },
 {
     name: 'officeNumber',
     type: 'input',
-    message: "Enter team manager's name"
+    message: "Enter team member's office number"
 },
 {
     name: 'position',
     type: 'list',
-    message: "Enter team manager's name",
+    message: "Enter team member's role",
     choices: ['Manager', 'Engineer', 'Intern', 'Done']
 }
 ]
@@ -106,27 +106,27 @@ function createEngineer() {
 const internQuestions = [{
     name: 'username',
     type: 'input',
-    message: "Enter team manager's name"
+    message: "Enter team member's name"
 },
 {
     name: 'employeeId',
     type: 'input',
-    message: "Enter team manager's name"
+    message: "Enter team member's employee id"
 },
 {
     name: 'email',
     type: 'input',
-    message: "Enter team manager's name"
+    message: "Enter team member's email"
 },
 {
     name: 'officeNumber',
     type: 'input',
-    message: "Enter team manager's name"
+    message: "Enter team member's office number"
 },
 {
     name: 'position',
     type: 'list',
-    message: "Enter team manager's name",
+    message: "Enter team member's role",
     choices: ['Engineer', 'Intern', 'Done']
 }
 ]
