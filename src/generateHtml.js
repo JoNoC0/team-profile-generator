@@ -29,7 +29,7 @@ const generateEngineer = function (engineer) {
             <div class="card-body">
                 <p class="id">ID: ${engineer.id}</p>
                 <p class="email">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-                <p class="github>GitHub: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
+                <p class="github">GitHub: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
             </div>
         </div>
     </div>
@@ -81,7 +81,7 @@ generateHtml = (data) => {
 
         // call intern function
         if (role === 'Intern') {
-            const internCard = generateIntern(employeeCards);
+            const internCard = generateIntern(employee);
             
             pageArray.push(internCard);
         }
@@ -111,7 +111,7 @@ const generateTeamPage = function (employeeCards) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <header>
@@ -121,7 +121,7 @@ const generateTeamPage = function (employeeCards) {
     </header>
     <main>
         <div class="container">
-            <div class"row justify-content-center" id="team-cards">
+            <div class="row justify-content-center" id="team-cards">
                 <!--Team Cards-->
                 ${employeeCards}
             </div>
