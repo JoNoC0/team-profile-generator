@@ -16,12 +16,19 @@ This application was created to generate a team profile based on user input usin
 The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module. If testing is required, this application uses Jest. 
 
 # Usage 
-Use inquirer from your command line to answer questions about your project.
-View walk through video here - [Screencastify]https://drive.google.com/file/d/1s-vCwhmBN4eOSOb_wh4Cs05lIz-8hf5t/view<br>
-<img src="./assets/images/teamprofile.png">
+Use inquirer from your command line to answer questions about your project
 
+## Team Profile Passing Tests and Video
+<img src="./assets/images/employeeTests.gif"></img>
+
+View walk through video here - <a href="https://drive.google.com/file/d/1s-vCwhmBN4eOSOb_wh4Cs05lIz-8hf5t/view">Team Profile Generator</a>
+
+<img src="./assets/images/teamprofile.png" style="max-width: 25"></img>
 # License 
 This project is license under MIT
+
+
+
 
 # Tests
 Run `npm test` to run Jest for tests on constructors. 
